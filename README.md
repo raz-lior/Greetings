@@ -2,13 +2,13 @@
 A MEAN Stack implementation of an Hello World project
 
 ##Prerequisites:
-$ NodeJs and npm
-$ bower package manager
-$ mongoDB
+    1. NodeJs and npm
+    2. bower package manager
+    3. mongoDB
 
 ##Installation Process:
-$ Download the files
-$ run 'npm install' in the main project folder
-$ run 'bower install' in the main project folder
-$ run 'nodejs src/Server.js'
-$ surf from a browser to http://localhost:3000
+    1. Download the files
+    2. run 'npm install' in the main project folder
+    3. run 'bower install' in the main project folder
+    4. run 'nodejs src/Server.js'
+    5. surf from a browser to http://localhost:3000
