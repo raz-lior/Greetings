@@ -1,0 +1,22 @@
+.greeting_container{
+  margin-left:auto;
+  margin-right:auto;
+  width: 280px;
+  height: 60px;
+  position:relative;
+}
+
+.greeting_container input{
+  margin-right:0px;
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  width:180px;
+}
+
+.greeting_container button{
+  margin-left:0px;
+  position:absolute;
+  bottom:0px;
+  left:180px;
+}

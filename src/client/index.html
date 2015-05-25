@@ -1,0 +1,16 @@
+<html ng-app="greetingApp">
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="/components/angular/angular.min.js"></script>
+    <script src="/components/angular-resource/angular-resource.min.js"></script>
+    <script src="greetings.js"></script>
+  </head>
+  <body>
+    <div ng-controller="greetController" class="greeting_container">
+      <h2>{{ greeting }}</h2>
+      <input type="text" placeholder="add your greeting here" ng-model="userGreeting" />
+      <button type="button" ng-click="postGreeting()">Greet</button>
+    </div>
+  </body>
+</html>
